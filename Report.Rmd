@@ -63,7 +63,9 @@ In the problem background, we mentioned that we want to reduce the likelihood of
 percent probable, which means $\alpha_{0.6}(m) < 0.05$ and $\beta_{0.8}(m) = 1- \alpha_{0.8}(m) < 0.05$.  
 So that we need $\alpha_{0.6}(m) < 0.05$ and $\alpha_{0.8}(m) > 0.95$
 
-- If we need $\alpha_{0.6}(m) < 0.05$, we first plot the $\alpha_{0.6}(m)$ vs. m.  
+### $\alpha_{0.6}(m) < 0.05$
+
+If we need $\alpha_{0.6}(m) < 0.05$, we first plot the $\alpha_{0.6}(m)$ vs. m.  
 
 ```{r, echo = FALSE}
 y <- seq(1, 100)
@@ -82,7 +84,9 @@ df
 
 The cutpoint is 69. So, we need $m > 69$ to satisfy $\alpha_{0.6}(m) < 0.05$.  
 
-- If we need $\alpha_{0.8}(m) > 0.95$, we first plot the $\alpha_{0.8}(m)$ vs. m.  
+### $\alpha_{0.8}(m) > 0.95$
+
+If we need $\alpha_{0.8}(m) > 0.95$, we first plot the $\alpha_{0.8}(m)$ vs. m.  
 
 ```{r, echo = FALSE}
 y <- seq(1, 100)
